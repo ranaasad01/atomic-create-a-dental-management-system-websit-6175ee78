@@ -1,0 +1,678 @@
+{
+  "nav": {
+    "dashboard": "Panel de Control",
+    "patients": "Pacientes",
+    "appointments": "Citas",
+    "treatments": "Tratamientos",
+    "billing": "Facturación",
+    "insurance": "Seguros",
+    "staff": "Personal",
+    "reports": "Reportes",
+    "settings": "Configuración"
+  },
+  "dashboard": {
+    "header": {
+      "heading": "Buenos días, Dra. Reyes",
+      "body": "Aquí hay una instantánea en vivo de tu práctica para hoy — martes, 22 de julio de 2025. Tienes 14 citas programadas y 3 reclamaciones de seguros pendientes de envío.",
+      "cta": "Agendar Nueva Cita"
+    },
+    "kpi": {
+      "heading": "Hoy de un Vistazo",
+      "body": "Indicadores clave de desempeño actualizados en tiempo real en toda tu práctica."
+    },
+    "appointments": {
+      "heading": "Próximas Citas — Hoy",
+      "body": "Tus próximas 6 citas de un vistazo. Haz clic en cualquier tarjeta para ver los detalles completos del paciente o reprogramar.",
+      "cta": "Ver Horario Completo",
+      "title": "Próximas Citas",
+      "viewAll": "Ver todo"
+    },
+    "analytics": {
+      "heading": "Desempeño de la Práctica — Últimos 6 Meses",
+      "body": "Realiza un seguimiento de los ingresos recaudados, nuevos registros de pacientes y citas completadas lado a lado.",
+      "cta": "Abrir Reportes Completos"
+    },
+    "activity": {
+      "heading": "Actividad Reciente",
+      "body": "Un feed en vivo de las últimas acciones realizadas en la práctica.",
+      "cta": "Ver Toda la Actividad",
+      "title": "Actividad Reciente",
+      "today": "Hoy"
+    },
+    "chart": {
+      "revenue": "Ingresos",
+      "subtitle": "Últimos 30 días",
+      "title": "Descripción General de la Práctica",
+      "visits": "Visitas de Pacientes"
+    },
+    "quickActions": {
+      "title": "Acciones Rápidas"
+    },
+    "subtitle": "Bienvenido de vuelta, aquí está tu instantánea de práctica",
+    "systemStatus": "Todos los sistemas operativos",
+    "title": "Panel de Control"
+  },
+  "patients": {
+    "header": {
+      "heading": "Pacientes",
+      "body": "Ver, buscar y gestionar todos los registros de pacientes en un solo lugar. Registra nuevos pacientes, actualiza perfiles y accede a historiales clínicos completos.",
+      "cta": "Agregar Nuevo Paciente"
+    },
+    "addButton": "Agregar Paciente",
+    "breadcrumb": {
+      "home": "Inicio",
+      "patients": "Pacientes"
+    },
+    "empty": "Sin pacientes aún. Comienza agregando tu primer paciente.",
+    "heading": "Pacientes",
+    "pagination": {
+      "showing": "Mostrando"
+    },
+    "resultCount": "pacientes",
+    "searchPlaceholder": "Buscar pacientes por nombre o teléfono...",
+    "stats": {
+      "active": "Activos",
+      "archived": "Archivados",
+      "inactive": "Inactivos",
+      "total": "Total"
+    },
+    "subheading": "Gestiona y organiza tus registros de pacientes",
+    "table": {
+      "actions": "Acciones",
+      "dentist": "Dentista Principal",
+      "dob": "Fecha de Nacimiento",
+      "lastVisit": "Última Visita",
+      "name": "Nombre del Paciente",
+      "phone": "Teléfono",
+      "status": "Estado"
+    }
+  },
+  "appointments-page": {
+    "header": {
+      "heading": "Citas",
+      "body": "Programa nuevas visitas, gestiona reservas existentes y mantén sincronizado el calendario de tu práctica.",
+      "cta": "Agendar Nueva Cita"
+    }
+  },
+  "treatments-page": {
+    "header": {
+      "heading": "Planes de Tratamiento",
+      "body": "Crea, gestiona y realiza un seguimiento de cada plan de tratamiento dental en tu práctica.",
+      "cta": "Nuevo Plan de Tratamiento"
+    }
+  },
+  "billing-page": {
+    "header": {
+      "heading": "Facturación e Facturas",
+      "body": "Gestiona facturas, realiza un seguimiento de pagos y mantén registros financieros completos de tu práctica.",
+      "cta": "Crear Factura"
+    }
+  },
+  "insurance-page": {
+    "header": {
+      "heading": "Reclamaciones de Seguros",
+      "body": "Gestiona reclamaciones de seguros, verifica cobertura y realiza un seguimiento del estado de envío con todos los proveedores.",
+      "cta": "Nueva Reclamación"
+    }
+  },
+  "staff-page": {
+    "header": {
+      "heading": "Gestión de Personal",
+      "body": "Gestiona dentistas, higienistas, recepcionistas y configura el control de acceso basado en roles.",
+      "cta": "Agregar Miembro del Personal"
+    }
+  },
+  "reports-page": {
+    "header": {
+      "heading": "Reportes y Análisis",
+      "body": "Genera reportes completos de la práctica, visualiza métricas de desempeño y exporta datos.",
+      "cta": "Generar Reporte"
+    }
+  },
+  "settings-page": {
+    "header": {
+      "heading": "Configuración",
+      "body": "Configura detalles de la práctica, preferencias de usuario, integraciones y seguridad del sistema.",
+      "cta": "Guardar Cambios"
+    }
+  },
+  "footer": {
+    "tagline": "Gestión de Práctica Dental más Inteligente",
+    "copyright": "Todos los derechos reservados."
+  },
+  "appointments": {
+    "bookBtn": "Reservar Cita",
+    "calendarView": "Calendario",
+    "listView": "Lista",
+    "statConfirmed": "Confirmada",
+    "statPending": "Pendiente",
+    "statToday": "Hoy",
+    "statTotal": "Total",
+    "subtitle": "Gestionar y programar visitas de pacientes",
+    "title": "Citas"
+  },
+  "billing": {
+    "actions": {
+      "paymentDesc": "Registrar y hacer seguimiento de pagos de pacientes",
+      "paymentTitle": "Registrar Pago",
+      "reportDesc": "Generar reportes financieros",
+      "reportTitle": "Ver Reporte",
+      "statementDesc": "Enviar estados de cuenta a pacientes",
+      "statementTitle": "Enviar Estado de Cuenta"
+    },
+    "chart": {
+      "breakdownSubtitle": "Ingresos por tipo de servicio",
+      "breakdownTitle": "Desglose de Servicios",
+      "revenueSubtitle": "Tendencia de ingresos mensuales",
+      "revenueTitle": "Resumen de Ingresos"
+    },
+    "exportBtn": "Exportar",
+    "newInvoiceBtn": "Nueva Factura",
+    "stats": {
+      "collected": "Cobrado",
+      "collectedSub": "Pagos recibidos",
+      "outstanding": "Pendiente",
+      "outstandingSub": "Esperando pago",
+      "overdue": "Vencido",
+      "overdueSub": "Pasada la fecha de vencimiento",
+      "totalRevenue": "Ingresos Totales",
+      "totalRevenueSub": "Ganancias totales"
+    },
+    "subtitle": "Hacer seguimiento de facturas, pagos e ingresos",
+    "table": {
+      "colAmount": "Monto",
+      "colBalance": "Saldo",
+      "colDate": "Fecha",
+      "colDue": "Fecha de Vencimiento",
+      "colInvoice": "Factura",
+      "colPatient": "Paciente",
+      "colStatus": "Estado",
+      "empty": "Sin facturas aún",
+      "filterAll": "Todas",
+      "invoices": "Facturas",
+      "next": "Siguiente",
+      "of": "De",
+      "prev": "Anterior",
+      "searchPlaceholder": "Buscar facturas...",
+      "showing": "Mostrando",
+      "title": "Historial de Facturas"
+    },
+    "title": "Facturación"
+  },
+  "bookingModal": {
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "confirm": "Confirmar Cita",
+    "date": "Fecha",
+    "dentist": "Seleccionar Dentista",
+    "dentistPlaceholder": "Elige un dentista",
+    "notes": "Notas",
+    "notesPlaceholder": "¿Alguna solicitud especial o preocupación?",
+    "patient": "Nombre del Paciente",
+    "patientPlaceholder": "Ingresa el nombre del paciente",
+    "reminder": "Recordatorio de Cita",
+    "reminderSub": "Enviar un recordatorio 24 horas antes",
+    "reminderToggle": "Activar recordatorio",
+    "subtitle": "Completa los detalles a continuación para programar",
+    "success": "¡Cita Reservada!",
+    "successSub": "Confirmación enviada al correo del paciente",
+    "time": "Hora",
+    "title": "Nueva Cita",
+    "type": "Tipo de Cita",
+    "typePlaceholder": "Selecciona el tipo de servicio"
+  },
+  "calendar": {
+    "clickDay": "Haz clic en un día para reservar",
+    "freeDay": "Disponible",
+    "nextMonth": "Siguiente",
+    "noAppts": "Sin citas programadas",
+    "prevMonth": "Anterior",
+    "selectDay": "Selecciona fecha"
+  },
+  "cta": {
+    "badge": "De confianza para 500+ consultorios",
+    "footnote": "No se requiere tarjeta de crédito",
+    "heading": "¿Listo para optimizar tu consulta?",
+    "primary": "Comenzar Prueba Gratuita",
+    "secondary": "Agendar Demo",
+    "subheading": "Únete a consultorios que ahorran 10+ horas semanales"
+  },
+  "features": {
+    "eyebrow": "Características Poderosas",
+    "heading": "Todo lo que necesitas para gestionar tu práctica",
+    "subheading": "Herramientas intuitivas diseñadas para equipos dentales"
+  },
+  "hero": {
+    "badge": "Nuevo: Programación con IA",
+    "cta": {
+      "primary": "Comenzar Gratis",
+      "secondary": "Ver Demo"
+    },
+    "floatingBadge": "Utilizado por prácticas dentales líderes",
+    "headline1": "Gestión Dental",
+    "headline2": "Simplificada",
+    "preview": {
+      "appt": {
+        "cleaning": "Limpieza",
+        "consultation": "Consulta",
+        "rootCanal": "Endodoncia"
+      },
+      "date": "Hoy, 2:30 PM",
+      "live": "Demo en Vivo",
+      "stat1": {
+        "label": "Citas Programadas"
+      },
+      "stat2": {
+        "label": "Registros de Pacientes"
+      },
+      "stat3": {
+        "label": "Reclamaciones Procesadas"
+      },
+      "title": "Gestión de Práctica Dental Simplificada"
+    },
+    "subheadline": "Optimiza la programación, registros de pacientes, reclamaciones de seguros y facturación en una plataforma intuitiva.",
+    "trust": {
+      "hipaa": "Cumple con HIPAA",
+      "setup": "Configuración en 30 Minutos",
+      "support": "Soporte 24/7"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Flujo de Trabajo",
+    "heading": "Gestiona tu Práctica en Minutos"
+  },
+  "insurance": {
+    "action": {
+      "reconcile": {
+        "desc": "Concilia reclamaciones con pagos y resuelve discrepancias al instante.",
+        "title": "Conciliar Reclamaciones"
+      },
+      "report": {
+        "desc": "Genera reportes detallados sobre el estado de reclamaciones y reembolsos.",
+        "title": "Ver Reportes"
+      },
+      "submit": {
+        "desc": "Envía reclamaciones a aseguradoras con un solo clic.",
+        "title": "Enviar Reclamaciones"
+      }
+    },
+    "allProviders": "Todos los Proveedores",
+    "claimsTable": "Reclamaciones",
+    "col": {
+      "actions": "Acciones",
+      "amount": "Monto",
+      "claimNo": "Reclamación #",
+      "patient": "Paciente",
+      "policy": "Póliza",
+      "provider": "Proveedor",
+      "status": "Estado",
+      "submitted": "Enviado"
+    },
+    "export": "Exportar",
+    "eyebrow": "Seguros",
+    "filterAll": "Todos los Reclamos",
+    "heading": "Gestión de Reclamos de Seguros",
+    "newClaim": "Nuevo Reclamo",
+    "noResults": "No se encontraron reclamos. Ajusta tus filtros e intenta de nuevo.",
+    "providerBreakdown": "Desglose por Proveedor",
+    "searchPlaceholder": "Buscar por paciente, # de reclamo o proveedor…",
+    "subheading": "Realiza seguimiento, envía y reconcilia reclamos de seguros sin esfuerzo.",
+    "view": "Ver Reclamo"
+  },
+  "integrations": {
+    "label": "Integraciones"
+  },
+  "listView": {
+    "actionCancel": "Cancelar",
+    "actionEdit": "Editar",
+    "actionReminder": "Enviar Recordatorio",
+    "actionView": "Ver",
+    "actions": "Acciones",
+    "allDentists": "Todos los Dentistas",
+    "allStatuses": "Todos los Estados",
+    "colActions": "Acciones",
+    "colDateTime": "Fecha y Hora",
+    "colDentist": "Dentista",
+    "colDuration": "Duración",
+    "colPatient": "Paciente",
+    "colStatus": "Estado",
+    "colType": "Tipo de Cita",
+    "noResults": "No se encontraron citas. Intenta ajustar tus filtros.",
+    "results": "Citas",
+    "searchPlaceholder": "Buscar por nombre de paciente o dentista..."
+  },
+  "pricing": {
+    "badge": "Más Popular",
+    "comparison": {
+      "subtitle": "Compara características en todos los planes",
+      "title": "Comparación de Planes"
+    },
+    "cta": {
+      "footnote": "No se requiere tarjeta de crédito. Cancela en cualquier momento.",
+      "primary": "Comenzar Prueba Gratuita",
+      "secondary": "Programar Demo",
+      "subtitle": "Elige el plan que se adapte a tu consultorio",
+      "title": "¿Listo para hacer crecer tu consultorio?"
+    },
+    "faq": {
+      "subtitle": "Encuentra respuestas a preguntas frecuentes",
+      "title": "Preguntas Frecuentes"
+    },
+    "hero": {
+      "subtitle": "Precios transparentes que escalan con tu consultorio",
+      "title": "Precios Simples y Honestos"
+    },
+    "testimonials": {
+      "subtitle": "Mira lo que los equipos dentales aman de nosotros",
+      "title": "Confiado por Consultorios en Todas Partes"
+    },
+    "toggle": {
+      "annual": "Anual",
+      "monthly": "Mensual",
+      "saveBadge": "Ahorra 20%"
+    }
+  },
+  "reminders": {
+    "allSent": "Todos los recordatorios enviados",
+    "call": "Llamada",
+    "email": "Correo electrónico",
+    "pending": "Pendiente",
+    "send": "Enviar Recordatorio",
+    "sent": "Recordatorio enviado exitosamente",
+    "statConfirmed": "Confirmado",
+    "statPending": "Pendiente",
+    "subtitle": "Los recordatorios automatizados de citas reducen las ausencias",
+    "title": "Recordatorios de Pacientes"
+  },
+  "reports": {
+    "appointmentTrends": {
+      "subtitle": "Rastrea patrones de reserva y utilización de capacidad",
+      "title": "Tendencias de Citas"
+    },
+    "dentistPerformance": {
+      "colAppointments": "Citas",
+      "colDentist": "Dentista",
+      "colPatients": "Pacientes",
+      "colRevenue": "Ingresos",
+      "colSatisfaction": "Satisfacción",
+      "subtitle": "Compara productividad y satisfacción del paciente por proveedor",
+      "title": "Desempeño del Dentista"
+    },
+    "export": "Exporta datos para un análisis más profundo",
+    "exportBtn": "Exportar",
+    "heading": "Análisis e Informes",
+    "insights": {
+      "title": "Información Clave"
+    },
+    "insuranceSummary": {
+      "colAmount": "Monto",
+      "colApprovalRate": "Tasa de Aprobación",
+      "colApproved": "Aprobado",
+      "colClaims": "Reclamaciones",
+      "colDenied": "Denegado",
+      "colPending": "Pendiente",
+      "colProvider": "Proveedor",
+      "colRate": "Tasa",
+      "subtitle": "Monitorea el estado de reclamaciones y tasas de reembolso por asegurador",
+      "title": "Resumen de Seguros"
+    },
+    "patientAcquisition": {
+      "subtitle": "Identifica tus canales de adquisición de pacientes más efectivos",
+      "title": "Adquisición de Pacientes"
+    },
+    "procedureBreakdown": {
+      "subtitle": "Ingresos y volumen por tipo de procedimiento",
+      "title": "Desglose de Procedimientos"
+    },
+    "procedureMix": {
+      "title": "Combinación de Procedimientos"
+    },
+    "profitMargin": {
+      "subtitle": "Monitorea la rentabilidad en servicios y períodos",
+      "title": "Margen de Ganancia"
+    },
+    "quickExports": {
+      "appointment": "Reporte de Citas",
+      "appointmentDesc": "Datos de horario y asistencia",
+      "financial": "Reporte Financiero",
+      "financialDesc": "Ingresos, gastos y márgenes",
+      "insurance": "Reporte de Seguros",
+      "insuranceDesc": "Detalles de reclamaciones y reembolsos",
+      "patient": "Reporte de Pacientes",
+      "patientDesc": "Datos demográficos e historial de visitas",
+      "title": "Exportaciones Rápidas"
+    },
+    "revenueChart": {
+      "subtitle": "Desempeño de ingresos mensuales y crecimiento",
+      "title": "Resumen de Ingresos"
+    },
+    "subheading": "Toma decisiones basadas en datos con análisis integral de tu práctica",
+    "subtitle": "Visualiza métricas de desempeño y exporta reportes personalizados",
+    "title": "Reportes y Análisis",
+    "topDentists": {
+      "colAppointments": "Citas",
+      "colDentist": "Dentista",
+      "colPatients": "Pacientes",
+      "colRevenue": "Ingresos",
+      "colSatisfaction": "Satisfacción",
+      "colSpecialty": "Especialidad",
+      "colTrend": "Tendencia",
+      "subtitle": "Monitorea métricas de desempeño e identifica tus profesionales con mejor rendimiento.",
+      "title": "Mejores Dentistas"
+    }
+  },
+  "signIn": {
+    "and": "Y",
+    "demoAccess": "Probar Demo",
+    "demoNote": "Explora con datos de ejemplo—sin tarjeta de crédito requerida.",
+    "emailLabel": "Correo Electrónico",
+    "emailPlaceholder": "tu@practica.com",
+    "errorEmail": "Por favor ingresa una dirección de correo válida.",
+    "errorPassword": "La contraseña debe tener al menos 8 caracteres.",
+    "everythingYouNeed": "Todo lo que necesitas para administrar tu práctica.",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "getStarted": "Comenzar",
+    "githubSSO": "GitHub",
+    "googleSSO": "Google",
+    "heading": "Bienvenido de Nuevo",
+    "hidePassword": "Ocultar",
+    "noAccount": "¿No tienes cuenta?",
+    "orContinueWith": "O continúa con",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "••••••••",
+    "privacy": "Política de Privacidad",
+    "quote": "Este sistema transformó cómo gestionamos citas y registros de pacientes. Altamente recomendado.",
+    "quoteAuthor": "Dra. Sarah Chen, Propietaria de Práctica",
+    "redirecting": "Redirigiendo...",
+    "rememberMe": "Recuérdame",
+    "showPassword": "Mostrar",
+    "signInButton": "Iniciar Sesión",
+    "signingIn": "Iniciando sesión...",
+    "subheading": "Accede a tu panel de control de práctica dental.",
+    "successMessage": "¡Bienvenido! Todo está listo.",
+    "terms": "Términos de Servicio",
+    "termsNote": "Al iniciar sesión, aceptas nuestros Términos de Servicio y Política de Privacidad."
+  },
+  "testimonials": {
+    "eyebrow": "Confiado por prácticas",
+    "heading": "Qué dicen los dentistas"
+  },
+  "kpi-cards": [
+    {
+      "label": "Total Patients",
+      "value": "1,284",
+      "sub": "active records",
+      "trend": "+6%",
+      "direction": "up"
+    },
+    {
+      "label": "Today's Appointments",
+      "value": "14",
+      "sub": "scheduled today",
+      "trend": "2 confirmed",
+      "direction": "up"
+    },
+    {
+      "label": "Monthly Revenue",
+      "value": "$38,450",
+      "sub": "collected this month",
+      "trend": "+11%",
+      "direction": "up"
+    },
+    {
+      "label": "Outstanding Invoices",
+      "value": "$7,820",
+      "sub": "across 23 open invoices",
+      "trend": "overdue",
+      "direction": "down"
+    },
+    {
+      "label": "Insurance Claims Pending",
+      "value": "9",
+      "sub": "awaiting insurer response",
+      "trend": "pending",
+      "direction": "neutral"
+    },
+    {
+      "label": "Treatment Plans Active",
+      "value": "47",
+      "sub": "across 39 patients",
+      "trend": "ongoing",
+      "direction": "up"
+    }
+  ],
+  "appointment-preview": [
+    {
+      "time": "09:00 AM",
+      "patient": "Maria Santos",
+      "procedure": "Routine Cleaning & Checkup",
+      "dentist": "Dr. Reyes",
+      "room": "Room 1",
+      "status": "Confirmed"
+    },
+    {
+      "time": "09:45 AM",
+      "patient": "James Okafor",
+      "procedure": "Root Canal Therapy (Session 2 of 3)",
+      "dentist": "Dr. Reyes",
+      "room": "Room 2",
+      "status": "Confirmed"
+    },
+    {
+      "time": "10:30 AM",
+      "patient": "Lily Chen",
+      "procedure": "Composite Filling — Upper Left Molar",
+      "dentist": "Dr. Patel",
+      "room": "Room 1",
+      "status": "Pending Check-in"
+    },
+    {
+      "time": "11:15 AM",
+      "patient": "David Müller",
+      "procedure": "Orthodontic Adjustment — Braces",
+      "dentist": "Dr. Patel",
+      "room": "Room 3",
+      "status": "Confirmed"
+    },
+    {
+      "time": "02:00 PM",
+      "patient": "Aisha Kamara",
+      "procedure": "New Patient Consultation & X-Ray",
+      "dentist": "Dr. Reyes",
+      "room": "Room 2",
+      "status": "Confirmed"
+    },
+    {
+      "time": "03:30 PM",
+      "patient": "Carlos Rivera",
+      "procedure": "Crown Fitting — Lower Right Premolar",
+      "dentist": "Dr. Reyes",
+      "room": "Room 1",
+      "status": "Confirmed"
+    }
+  ],
+  "analytics-chart": [
+    {
+      "label": "Revenue Collected",
+      "type": "bar",
+      "data": [
+        29100,
+        31400,
+        33800,
+        35200,
+        34600,
+        38450
+      ]
+    },
+    {
+      "label": "New Patients Registered",
+      "type": "line",
+      "data": [
+        18,
+        24,
+        21,
+        29,
+        26,
+        31
+      ]
+    },
+    {
+      "label": "Appointments Completed",
+      "type": "line",
+      "data": [
+        142,
+        158,
+        167,
+        174,
+        169,
+        183
+      ]
+    },
+    {
+      "label": "Treatment Plans Created",
+      "type": "bar",
+      "data": [
+        11,
+        14,
+        13,
+        17,
+        15,
+        19
+      ]
+    }
+  ],
+  "recent-activity": [
+    {
+      "time": "2 min ago",
+      "text": "Invoice #INV-2025-0847 marked as Paid · $1,200 · Patient: Maria Santos"
+    },
+    {
+      "time": "14 min ago",
+      "text": "New patient registered · Aisha Kamara · DOB 14 Mar 1990 · Added by Receptionist Tina Park"
+    },
+    {
+      "time": "31 min ago",
+      "text": "Insurance claim #CLM-4421 submitted to BlueCross · Patient: James Okafor · $3,400"
+    },
+    {
+      "time": "1 hr ago",
+      "text": "Treatment plan updated · Crown + Root Canal · Patient: Carlos Rivera · Dr. Reyes"
+    },
+    {
+      "time": "1 hr 22 min ago",
+      "text": "Appointment rescheduled · Lily Chen moved from 10:00 AM to 10:30 AM · Room 1"
+    },
+    {
+      "time": "2 hrs ago",
+      "text": "X-ray uploaded · Panoramic OPG · Patient: David Müller · Dr. Patel"
+    },
+    {
+      "time": "3 hrs ago",
+      "text": "Prescription issued · Amoxicillin 500 mg × 7 days · Patient: James Okafor · Dr. Reyes"
+    },
+    {
+      "time": "Yesterday, 5:48 PM",
+      "text": "End-of-day report generated · 16 appointments completed · $4,320 collected"
+    }
+  ]
+}
